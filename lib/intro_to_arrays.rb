@@ -26,18 +26,9 @@ def last_element_with_array_methods(array)
   array.last
 end
 
-    describe "#last_element_with_array_methods" do
-      it 'takes in an argument of an array and returns the last element in the array, wihtout referencing the index number' do
-        last_country = last_element_with_array_methods(@south_east_asia)
-        expect(last_country).to eq("Myanmar")
-      end
-    end
-  end
-
-  context 'using ruby array methods to get information about an array' do
-    before(:each) do
-      @programming_languages = ["Ruby", "Javascript", "Python", "C++", "Java", "Lisp", "PHP", "Clojure"]
-    end
+def length_of_array(array)
+  array.length
+end
 
     describe "#length_of_array" do
       it 'takes in an argrument of an array and returns the length of the array' do
