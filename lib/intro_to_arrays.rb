@@ -18,18 +18,11 @@ def last_element(array)
   array[-1]  
 end
 
-    describe "#last_element" do
-      it "takes in an argument of an array and returns the last element in the array using its negative index" do
-        my_last_element = last_element(@taylor_swift)
-        expect(my_last_element).to eq("Out of The Woods")
-      end
-    end
-  end
+def first_element_with_array_methods(array)
+  array.first
+end
+  
 
-  context 'using ruby array methods to return values from an array' do
-    before(:each) do
-      @south_east_asia = ["Thailand", "Cambodia", "Singapore", "Myanmar"]
-    end
     
     describe "#first_element_with_array_methods" do 
       it 'takes in an argument of an array and returns the first element in the array, without referencing the index number of that element' do
