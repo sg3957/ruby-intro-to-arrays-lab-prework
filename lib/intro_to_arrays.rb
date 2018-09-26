@@ -14,13 +14,9 @@ def third_element(array)
   array[2]
 end
 
-
-    describe "#third_element" do 
-      it "takes in an argument of an array and returns the third element in the array using its positive index" do
-        my_third_element = third_element(@taylor_swift)
-        expect(my_third_element).to eq("Style")
-      end
-    end
+def last_element(array)
+  array[-1]  
+end
 
     describe "#last_element" do
       it "takes in an argument of an array and returns the last element in the array using its negative index" do
