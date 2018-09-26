@@ -22,7 +22,9 @@ def first_element_with_array_methods(array)
   array.first
 end
   
-
+def last_element_with_array_methods(array)
+  array.last
+end
 
     describe "#last_element_with_array_methods" do
       it 'takes in an argument of an array and returns the last element in the array, wihtout referencing the index number' do
